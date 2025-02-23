@@ -1,0 +1,208 @@
+.logo {
+  width: 200px;
+  height: 200px;
+}
+
+.poster {
+  margin-top: 15px;
+  width: 700px;
+  height: 300px;
+  border: 10px;
+  border-style: outset;
+  border-color: brown;
+  border-radius: 22px;
+}
+
+@font-face {
+  font-family: BreakingBad;
+  src: url(../fuentes/BreakingBad.ttf);
+}
+
+.Img {
+  display: block;
+  margin: 0 auto;
+  width: 700px;
+  height: 300px;
+  border: 10px outset brown;
+  border-radius: 22px;
+}
+
+.form {
+  font-family: Helvetica, sans-serif;
+  color: white;
+  font-size: 10px;
+}
+
+.form form {
+  display: flex;
+  flex-direction: column;
+  max-width: 30rem;
+  margin: auto;
+  background-color: #0c3e11;
+}
+
+.form form fieldset {
+  display: flex;
+  flex-direction: column;
+  gap: .2rem;
+  padding: 1rem;
+  margin: 1rem 0 0 0;
+}
+
+body {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: BreakingBad;
+
+  background-image: url('../Img/fondo.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+table {
+  width: 790px;
+  border-collapse: collapse;
+
+}
+
+td {
+  border: 3px solid #2B2C24;
+  padding: 2px;
+  text-align: center;
+  width: 55px;
+  height: 55px;
+}
+
+td[colspan="2"] {
+  height: 90px;
+  text-align: center;
+}
+
+.merged-cell {
+  border-bottom: none;
+}
+
+.merged-cell {
+  border-bottom: none;
+}
+
+.full-width {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.color1 {
+  background-color: #b6d720;
+}
+
+.color2 {
+  background-color: #818e4b;
+}
+
+.color3 {
+  background-color: #c7e445;
+}
+
+.color4 {
+  background-color: #bac29e;
+}
+
+.color5 {
+  background-color: #f8ffd5;
+
+}
+
+.color6 {
+  background-color: #657426;
+}
+
+.color7 {
+  background-color: #d5eb72;
+}
+
+.color8 {
+  background-color: #bb92e2;
+}
+
+.color9 {
+  background-color: #bbc027;
+}
+
+.tabla2 {
+  margin-top: 25px;
+  border-collapse: separate;
+  border-spacing: 1.95px;
+  background-color: #2B2C24;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+.ocultar {
+  border: none;
+}
+
+.letra {
+  font-family: Helvetica, sans-serif
+}
+
+.fuenteprincipal {
+  font-size: 40px;
+  color: white;
+}
+
+.fuentegrande {
+  display: block;
+  margin-top: 5px;
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+}
+
+.fuentepequeña {
+  display: block;
+  font-size: 10px;
+  color: black;
+  font-weight: bold;
+}
+
+td Img {
+  display: block;
+  margin: 0 auto;
+}
+
+.margentablas {
+  margin-top: 25px;
+}
+
+.tabla1 {
+  background-color: #637124;
+  background-image: none;
+  font-family: Helvetica, sans-serif;
+}
+
+#tablaprincipal {
+  width: 690px;
+  border-collapse: collapse;
+  border-collapse: separate;
+  border-spacing: 1.95px;
+  background-color: rgb(27, 25, 25);
+}
+
+#tablaprincipal td {
+  border: 3px solid #2B2C24;
+  text-align: center;
+  background-color: rgba(204, 220, 28, 0.753);
+  aspect-ratio: 1 / 1;
+}
+
+#tablaprincipal br {
+  background-color: rgb(27, 25, 25);
+  font-family: Arial, Helvetica, sans-serif
+}
+
+#tablaprincipal Img {
+  max-width: 50px;
+  max-height: 50px;
+}
